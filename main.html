@@ -6,22 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Egzamino užduotis</title>
     <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    
 </head>
 <body>
-    <h1 >Apie tinklalapį</h1>
-    <p class="melynas_tekstas">Tinklalapis yra skirtas išsisaugoti savo arba kitų sukurtus receptus. Apačioje yra forma, kurią įvedus bus galima išsaugoti.</p>
+    <h1 id = "antraste" input class="mygtukas1">Apie tinklalapį</h1>
+    <p class="melynas_tekstas" id = "pastraipa">Tinklalapis yra skirtas išsisaugoti savo arba kitų sukurtus receptus. Apačioje yra forma, kurią įvedus bus galima išsaugoti.</p>
 
     <form action="ivedimo_forma">
         <label for="pavadinimas" class="melynas_tekstas"><b>Pavadinimas:</b></label>
-        <input type="text" ><br><br>
+        <input id="pavadinimas" type="text" value=""><br><br>
         <label for="ingredientai"><b >Ingredientai: </b> </label>
-        <input class="pasvires-raudonas-tekstas" ><br><br>
-        <label   for="nurodymai"><b >Nurodymai: </b></label>
-        <input  class="padidintas-langelis">    
-      </form> 
+        <input id="ingredientai" class="pasvires-raudonas-tekstas" value=""><br><br>
+        <label for="nurodymai"><b >Nurodymai: </b></label>
+        <input id="nurodymai" class="padidintas-langelis" value="">    
+      </form>                         
 
-                 
-        <input class="mygtukas" type="submit" value="Spausti čia">
+        <button id="mygtukas" class="mygtukas"> Spausti čia</button>             
+        
      
     
 </body>
